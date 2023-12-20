@@ -12,6 +12,6 @@ jobs:
       - name: install g++
         run: sudo apt-get install -y g++
       - name: build
-        run: g++ -o graphs_build main.cpp main.cpp modules/edge.cpp modules/point.cpp modules/dsu.cpp modules/graph.cpp
+        run: g++ -o graphs_build main.cpp modules/edge.cpp modules/point.cpp modules/dsu.cpp modules/graph.cpp
       - name: test
         run: ./graphs_build # Запускаем тесты
