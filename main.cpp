@@ -16,6 +16,8 @@
 #include <iostream>
 #include <vector>
 #include <cassert>
+#include <climits>
+#include <algorithm>
 #include "modules/point.h"
 #include "modules/dsu.h"
 #include "modules/graph.h"

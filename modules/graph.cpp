@@ -1,5 +1,6 @@
 #include "graph.h"
 #include "stack"
+#include <algorithm>
 
 Graph::Graph(int size, int v) : vertices_count(v) {
     edges.reserve(size);
